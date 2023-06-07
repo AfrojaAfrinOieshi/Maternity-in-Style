@@ -1,0 +1,57 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../img/top.jpg);
+    background-size:cover;
+}
+#bannerImage2{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(../img/go.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    
+}
+.top{
+    
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background-size:cover;
+
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0, 0, 0, 0.7);
+    max-width:660px;
+   
+}
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+
+
+@media only screen and (max-width: 640px) {
+    .col-xs-4 { width : 50%; }
+}
+
